@@ -1,4 +1,8 @@
-import { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
+
+export const AppWidth = styled.div`
+  min-width: 1680px;
+`;
 
 export const GlobalStyle = createGlobalStyle`
   :root {
@@ -12,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     
     display: flex;
     justify-content: center;

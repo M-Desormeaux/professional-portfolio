@@ -1,15 +1,16 @@
 import React from "react";
-import { BlurbDiv, ImgStyle, LandingStyle } from "./LandingStyle";
+import { BlurbDiv, ImgDiv, ImgStyle, LandingStyle } from "./LandingStyle";
 
 export const Landing = () => {
   return (
     <LandingStyle>
-      <div>
+      <ImgDiv>
         <ImgStyle
+          corner="3"
           src="https://avatars.githubusercontent.com/u/53596354?v=4"
           alt=""
         />
-      </div>
+      </ImgDiv>
       <BlurbDiv>
         <h1>Michael Desormeaux</h1>
         <h3>Virtual Visionary</h3>
